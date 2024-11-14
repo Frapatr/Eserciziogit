@@ -1,7 +1,25 @@
 .dflex{
     display: flex;
 }
-.position{
-
+.text{
+justify-content: center;
+text-shadow: 0cm;
+color:hsl(137, 79%, 56%);
 
 }
+#galleria{
+margin: 0;
+padding: 0;
+}
+#galleria > li {
+    border: 2px solid #333333;
+    display: inline-flex;
+    }
+    #contenitore{
+        background: #e3e3e3;
+        max-width:850px;
+        margin:0 auto;
+        padding: 20px;
+        text-align: center;
+}
+    
